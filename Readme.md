@@ -2,6 +2,9 @@
 
 A real-time chat application built with the MERN stack and Socket.IO, featuring secure authentication, instant messaging, image sharing, and a modern responsive interface.
 
+## Live link
+https://mern-chat-app-sawal612.vercel.app
+
 ## 🚀 Features
 
 * 🔐 JWT Authentication
