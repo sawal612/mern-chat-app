@@ -159,7 +159,7 @@ Image Storage: Cloudinary
 
 ---
 
-## 📸 Screenshots
+
 
 Add screenshots of:
 
@@ -207,9 +207,8 @@ This project is licensed under the MIT License.
 
 Developed by **Sawal Pushkarna**
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/sawal612
 
-LinkedIn: https://linkedin.com/in/yourprofile
 
 ---
 

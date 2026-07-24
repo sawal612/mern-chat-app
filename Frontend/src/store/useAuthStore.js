@@ -84,7 +84,7 @@ export const useAuthStore = create((set,get) => ({
     connectSocket: () => {
         const { authUser, socket: currentSocket } = get();
         if(!authUser || currentSocket?.connected) return; // if the user is not authenticated, we don't want to connect the socket
-        const newSocket = io(BASE_URL, {
+        const newSocket = io(import.meta.env.VITE_SOCKET_URL, {
             withCredentials: true,
             query: { userId: authUser._id }, // we are sending the userId as a query parameter to the server so that the server can identify the user and add them to the online users list
         });
