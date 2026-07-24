@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: 'http://localhost:5173', // Allow all origins for testing purposes, you can restrict this in production
+        origin: 'https://mern-chat-app-sawal612.vercel.app', // Allow all origins for testing purposes, you can restrict this in production
         credentials: true,
     },
 });
