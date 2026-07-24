@@ -10,7 +10,7 @@ import {  app, server } from './lib/socket.js';
 
 dotenv.config();
 app.use(cors({
-    origin: "http://localhost:5173", // as we are using vite for frontend, we need to set this to the frontend url
+    origin: "https://mern-chat-app-sawal612.vercel.app", // as we are using vite for frontend, we need to set this to the frontend url
     credentials: true, // as we are using cookies for authentication, we need to set this to true
 }));
 
